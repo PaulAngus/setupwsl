@@ -1,8 +1,7 @@
 sudo apt update
 sudo apt upgrade -y
-sudo apt install python3-sphinx ruby-full ansible git 2to3 
+sudo apt install -y puthon3-pip python3-sphinx ruby-full ansible git 2to3 
 pip3 install sphinx_rtd_theme docopt
-gem install middleman
 sudo gem install middleman
 bundler install
 wget https://github.com/apache/cloudstack-cloudmonkey/releases/download/pre-next-rc/cmk.linux.x86-64

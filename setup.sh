@@ -10,4 +10,4 @@ chmod +x /usr/bin/cmk
 echo "alias docbuild='sphinx-build -b html /mnt/c/Users/paul/Documents/Git/cloudstack-documentation/source /mnt/c/Users/paul/Documents/Git/acsdocs_built'
 alias gotogit='cd /mnt/c/Users/paul/Documents/Git/'
 alias wwwbuild='bundle exec middleman build && cp -r ./build/* /mnt/c/Users/paul/Documents/Git/acswww-built'
-" > ~/.bash_aliases
+" >> ~/.bash_aliases

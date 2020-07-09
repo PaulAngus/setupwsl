@@ -1,6 +1,6 @@
 sudo apt update
 sudo apt upgrade -y
-sudo apt install -y python3-pip python3-sphinx ruby-full ansible git 2to3 
+sudo apt install -y python3-pip python3-sphinx ruby-full ansible git 2to3 ruby-bundler npm nodejs
 pip3 install sphinx_rtd_theme docopt
 sudo gem install middleman
 bundler install
